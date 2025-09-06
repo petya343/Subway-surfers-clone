@@ -3,25 +3,37 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IPlayerController
 {
+    public static PlayerController Instance;
+
     private Rigidbody rb;
     private Animator animator;
     private BoxCollider col;
-    private bool isGrounded = true;
     private float x;
     private Vector3 colSize;
     private Vector3 colCenter;
-    private int line = 0;
-    private bool isDead = false;
 
     private float jumpForce = 7f;
     private float forwardSpeed = 7f;
     private float smoothSpeed = 15f;
     private float sideMove = 4f;
-    public bool IsDead { get; private set; }
 
-    // Start is called before the first frame update
+    public IGameManager GameManagerService { get; set; }
+    public IScoreSystem ScoreSystemService { get; set; }
+    public IAudioManager AudioManagerService { get; set; }
+    public IBoots BootsService { get; set; }
+
+    public int line { get; private set; } = 0;
+    public bool IsDead { get; set; }
+    public bool IsOnTrain { get; set; }
+
+    public bool isGrounded { get; set; } = true;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -30,26 +42,32 @@ public class PlayerController : MonoBehaviour
         colCenter = col.center;
         animator = GetComponent<Animator>();
         x = transform.position.x;
+        if (GameManagerService == null) GameManagerService = GameManager.Instance;
+        if (ScoreSystemService == null) ScoreSystemService = ScoreSystem.Instance;
+        if (AudioManagerService == null) AudioManagerService = AudioManager.Instance;
+        if (BootsService == null) BootsService = Boots.Instance;
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (IsDead || !GameManager.Instance.IsGameRunning) return;
+        if (IsDead || GameManagerService == null || !GameManagerService.IsGameRunning) return;
 
+        forwardSpeed += 0.0003f;
         HandleInput();
         MoveForward();
+
+        ScoreSystemService?.UpdateScore();
+
     }
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.A) && line != -1)
+        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && line != -1)
         {
             x -= sideMove;
             --line;
         }
 
-        if (Input.GetKeyDown(KeyCode.D) && line != 1)
+        if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && line != 1)
         {
             x += sideMove;
             ++line;
@@ -59,38 +77,38 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             Slide();
         }
 
     }
 
-    private void Jump()
+    public void Jump()
     {
-        float finalJumpForce = Boots.Instance.BootsActive ?
-                          Boots.Instance.BootsJumpForce :
+        float finalJumpForce = (BootsService != null && BootsService.BootsActive) ?
+                          BootsService.BootsJumpForce :
                           jumpForce;
 
         rb.velocity = new Vector3(rb.velocity.x, finalJumpForce, rb.velocity.z);
         isGrounded = false;
-        animator.SetBool("isJumping", true);
+        if (animator != null) animator.SetBool("isJumping", true);
 
-        if (Boots.Instance.BootsActive)
+        if (BootsService.BootsActive)
         {
-            Boots.Instance.PlayBootsJumpEffects();
+            BootsService.PlayBootsJumpEffects();
         }
     }
 
-    private void MoveForward()
+    public void MoveForward()
     {
         transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, x, smoothSpeed * Time.deltaTime),
-                                             transform.position.y,
-                                             transform.position.z + forwardSpeed * Time.deltaTime);
+                                         transform.position.y,
+                                         transform.position.z + forwardSpeed * Time.deltaTime);
 
     }
 
-    private void Slide()
+    public void Slide()
     {
         if (!isGrounded)
         {
@@ -100,32 +118,35 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("Sliding");
     }
 
-    public void EndSliding()
-    {
-        col.size = colSize;
-        col.center = colCenter;
-    }
-    public void StartSliding()
-    {
-        col.size = new Vector3(col.size.x, 1.5f, col.size.z);
-        col.center = new Vector3(col.center.x, 0.8f, col.center.z);
-    }
-
     public void Die()
     {
         IsDead = true;
         //isGrounded = true;
         transform.position += new Vector3(0f, 0f, -1f);
-        animator.SetBool("isDead", true);
-        Camera.main.GetComponent<ScreenShaker>().ScreenShake();
+        if (animator != null) animator.SetBool("isDead", true);
+        if (Camera.main != null) Camera.main.GetComponent<ScreenShaker>().ScreenShake();
+        GetComponent<ExtraLife>()?.ReviveCharacter();
+    }
+    public void ResetLine()
+    {
+        line = 0;
+        x = 3.2f;
     }
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Ground") || other.gameObject.layer == LayerMask.NameToLayer("TrainSurface"))
+        if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
             animator.SetBool("isJumping", false);
+            IsOnTrain = false;
+        }
+
+        if (other.gameObject.layer == LayerMask.NameToLayer("TrainSurface"))
+        {
+            isGrounded = true;
+            animator.SetBool("isJumping", false);
+            IsOnTrain = true;
         }
 
         if (other.gameObject.CompareTag("Obstacle"))
@@ -138,5 +159,17 @@ public class PlayerController : MonoBehaviour
                 GameManager.Instance.GameOver();
             }
         }
+    }
+    public void EndSliding()
+    {
+        if (col == null) return;
+        col.size = colSize;
+        col.center = colCenter;
+    }
+    public void StartSliding()
+    {
+        if (col == null) return;
+        col.size = new Vector3(col.size.x, 1.5f, col.size.z);
+        col.center = new Vector3(col.center.x, 0.8f, col.center.z);
     }
 }

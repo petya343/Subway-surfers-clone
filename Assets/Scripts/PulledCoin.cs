@@ -23,11 +23,6 @@ public class PulledCoin : MonoBehaviour
                                                      speed * Time.deltaTime);
 
             float distance = Vector3.Distance(transform.position, player.transform.position);
-
-            //if (distance < 1f)
-            //{
-            //    player.GetComponent<MagnetPower>().CollectCoin(gameObject);
-            //}
         }
     }
 }

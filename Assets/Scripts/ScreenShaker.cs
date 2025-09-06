@@ -10,9 +10,9 @@ public class ScreenShaker : MonoBehaviour
 
     [SerializeField]
     [Range(0f, 1f)]
-    private float duration = 0.2f;
+    private float duration = 0.3f;
 
-    [Range(0f, 10f)]
+    [Range(0f, 3f)]
     [SerializeField]
     private float intensity = 1f;
 

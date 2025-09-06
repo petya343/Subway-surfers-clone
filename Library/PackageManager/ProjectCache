@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638908520528635204
-    m_Hash: 2108425003
+      ticks: 638924148027366149
+    m_Hash: 152703691
   m_LockFileStatus:
     m_FilePath: C:/Users/ipety/Project Petya Ivanova/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638908520528890172
-    m_Hash: 1458186497
+      ticks: 638924148027366149
+    m_Hash: 4178475544
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -125,12 +125,14 @@ m_ResolvedPackages:
     - 2.8.2
     - 2.9.1
     - 2.9.2
+    - 2.9.3
     compatible:
     - 2.7.1
     - 2.8.1
     - 2.8.2
     - 2.9.1
     - 2.9.2
+    - 2.9.3
     recommended: 2.7.1
     deprecated: []
   dependencies: []

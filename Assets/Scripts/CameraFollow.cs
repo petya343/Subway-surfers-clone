@@ -11,6 +11,8 @@ public class CameraFollow : MonoBehaviour
     private Vector3 cameraPos;
     private float fixedY;
     private float fixedTrainY;
+    private bool isJumpingWithBoots = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,13 +27,16 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.GetComponent<PlayerMovement>().isOnTrain()) fixedTrainY = transform.position.y;
+        if (!player.GetComponent<PlayerController>().IsOnTrain && !player.GetComponent<PlayerController>().isGrounded && player.GetComponent<Boots>().BootsActive) isJumpingWithBoots = true;
+        else if (player.GetComponent<PlayerController>().isGrounded && !player.GetComponent<Boots>().BootsActive) isJumpingWithBoots = false;
 
-        if (player.GetComponent<PlayerMovement>().Boots() && !player.GetComponent<PlayerMovement>().isOnTrain())
+        if (player.GetComponent<PlayerController>().IsOnTrain) fixedTrainY = transform.position.y;
+
+        if (player.GetComponent<Boots>().BootsActive && !player.GetComponent<PlayerController>().IsOnTrain || isJumpingWithBoots)
         {
             cameraPos = new Vector3(player.transform.position.x + offsetX, player.transform.position.y + offsetY, player.transform.position.z + offsetZ);
         }
-        else if (player.GetComponent<PlayerMovement>().isOnTrain() || player.transform.position.y >= fixedTrainY - offsetY)
+        else if (player.GetComponent<PlayerController>().IsOnTrain || player.transform.position.y >= fixedTrainY - offsetY)
         {
             cameraPos = new Vector3(player.transform.position.x + offsetX, fixedTrainY, player.transform.position.z + offsetZ);
         }

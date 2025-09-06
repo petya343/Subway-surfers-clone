@@ -2,27 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MagnetPower : MonoBehaviour
+public class MagnetPower : MonoBehaviour, IMagnetPower
 {
+    public static MagnetPower Instance { get; private set; }
+    public IBoots BootsService { get; set; } 
+    public IBarUI BarUIService { get; set; }
+
     private float magnetRange = 12f;
     private float duration = 10f;
     private float magnetSpeed = 15f;
-    
+
     private bool isMagnetActive = false;
     private Coroutine magnetCoroutine = null;
     [SerializeField]
     private ParticleSystem collectingCoins;
-    [SerializeField]
-    private GameObject magnetUI;
+    public GameObject magnetUI;
     private int posUI = 0;
     private Vector3 magnetUIpos;
     [SerializeField]
-    private AudioSource powerCollect;
+    private void Awake()
+    {
+        Instance = this;
+    }
     private void Start()
     {
         magnetUIpos = magnetUI.transform.position;
+        if (BootsService == null) BootsService = GetComponent<Boots>();
+        if (BarUIService == null) BarUIService = magnetUI.GetComponent<BarUI>();
     }
 
+    public bool MagnetActive() => isMagnetActive;
     void Update()
     {
         if (isMagnetActive)
@@ -40,40 +49,33 @@ public class MagnetPower : MonoBehaviour
                     PulledCoin co = coin.GetComponent<PulledCoin>();
                     co.StartPull();
                 }
-                //if (distance < 1f)
-                //{
-                //    CollectCoin(coin);
-                //}
             }
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void ActivateMagnet()
     {
-        if (other.gameObject.name.Contains("Magnet"))
+        if (BootsService != null && BootsService.PosUI() == 1 && !isMagnetActive)
         {
-            powerCollect.Play();
-            if (GetComponent<PlayerMovement>().PosUI() == 1 && !isMagnetActive)
-            {
-                magnetUI.transform.position += new Vector3(160f, 0f, 0f);
-                posUI = 2;
-            }
-            else if(!isMagnetActive)
-            {
-                posUI = 1;
-            }
-            if (magnetCoroutine != null)
-            {
-                StopCoroutine(magnetCoroutine);
-                magnetUI.GetComponent<BarUI>().ResetTimer();
-            }
-            magnetUI.SetActive(true);
-            magnetCoroutine = StartCoroutine(ActivateMagnet());
-            Destroy(other.gameObject);
+            magnetUI.transform.position += new Vector3(160f, 0f, 0f);
+            posUI = 2;
         }
+        else if (!isMagnetActive)
+        {
+            posUI = 1;
+        }
+        if (magnetCoroutine != null)
+        {
+            StopCoroutine(magnetCoroutine);
+            if (BarUIService != null) BarUIService.ResetTimer();
+            else magnetUI.GetComponent<BarUI>()?.ResetTimer();
+        }
+        magnetUI.SetActive(true);
+        magnetCoroutine = StartCoroutine(MagnetCoroutine());
+
     }
 
-    private IEnumerator ActivateMagnet()
+    private IEnumerator MagnetCoroutine()
     {
         isMagnetActive = true;
         yield return new WaitForSeconds(duration);
@@ -86,9 +88,4 @@ public class MagnetPower : MonoBehaviour
 
     public int PosUI() => posUI;
 
-    //public void CollectCoin(GameObject coin)
-    //{
-    //    collectingCoins.Play();
-    //    Destroy(coin);
-    //}
 }

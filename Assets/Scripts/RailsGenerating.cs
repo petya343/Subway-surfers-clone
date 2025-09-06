@@ -13,8 +13,8 @@ public class RailsGenerating : MonoBehaviour
 
     private Vector3 pos;
     private float railLength = 4;
-    private bool isPaused = false;
-    // Start is called before the first frame update
+    private float spawnDistance = 150f;
+    private float destroyDistance = 100f;
     void Start()
     {
         player = GameObject.Find("Player");
@@ -29,11 +29,9 @@ public class RailsGenerating : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(isPaused) return;
-        if (player.transform.position.z > startPoint - 150)
+        if (player.transform.position.z > startPoint - spawnDistance)
         {
             SpawnRail();
 
@@ -52,13 +50,11 @@ public class RailsGenerating : MonoBehaviour
 
     private void DestroyRail()
     {
-        if (spawnedRails[0].transform.position.z < player.transform.position.z - 100)
+        if (spawnedRails[0].transform.position.z < player.transform.position.z - destroyDistance)
         {
             Destroy(spawnedRails[0]);
             spawnedRails.RemoveAt(0);
         }
     }
-    public void Pause() => isPaused = true;
-    public void Resume() => isPaused = false;
 
 }

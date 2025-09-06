@@ -3,19 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BarUI : MonoBehaviour
+public class BarUI : MonoBehaviour, IBarUI
 {
+    public static BarUI Instance { get; private set; }
+
     [SerializeField]
     private Image barImage;
     private float duration = 10f;
     private float timeLeft;
+    public Image BarImage
+    {
+        get => barImage;
+        set => barImage = value;
+    }
 
+    private void Awake()
+    {
+        Instance = this;
+    }
     void OnEnable()
     {
         ResetTimer();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timeLeft > 0)

@@ -6,10 +6,12 @@ using UnityEngine.UI;
 
 public class ExtraLife : MonoBehaviour
 {
+    public IGameManager GameManagerService {  get; set; }
+    public  IObstaclesGenerating ObstaclesGeneratingService { get; set; }
+    public IPlayerController PlayerControllerService { get; set; }
+
     private bool heart = false;
     private GameObject obstaclesGenerator;
-    private GameObject housesGenerator;
-    private GameObject railsGenerator;
     private Animator animator;
     private Rigidbody rb;
     [SerializeField]
@@ -21,74 +23,64 @@ public class ExtraLife : MonoBehaviour
     [SerializeField]
     private GameObject usingHeartUI;
 
-
     void Start()
     {
         obstaclesGenerator = GameObject.Find("ObstaclesGenerator");
-        //housesGenerator = GameObject.Find("HousesGenerator");
-        //railsGenerator = GameObject.Find("RailsGenerator");
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         heartUI.sprite = emptyHeart;
+        if (PlayerControllerService == null) PlayerControllerService = PlayerController.Instance;
+        if (GameManagerService == null) GameManagerService = GameManager.Instance;
+        if (ObstaclesGeneratingService == null) ObstaclesGeneratingService = ObstaclesGenerating.Instance;
     }
     public void ReviveCharacter()
     {
-        if (gameObject.GetComponent<PlayerMovement>().Dead() && heart)
+        if (PlayerControllerService.IsDead && heart)
         {
-            //GetComponent<PlayerMovement>().enabled = false;
-            StartCoroutine(ActivateHeart());
+            StartCoroutine(HeartCoroutine());
             heartUI.sprite = emptyHeart;
-
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void ActivateHeart()
     {
-        if (other.gameObject.name.Contains("Heart"))
-        {
-            if(!heart) heart = true;
-            heartUI.sprite = fullHeart;
-            Destroy(other.gameObject);
-        }
+        if (!heart) heart = true;
+        heartUI.sprite = fullHeart;
     }
-    private IEnumerator ActivateHeart()
+    private IEnumerator HeartCoroutine()
     {
         yield return new WaitForSeconds(3f);
 
-        GetComponent<PlayerMovement>().SetGame(false);
-        //GetComponent<PlayerMovement>().enabled = true;
+       GameManagerService.IsGameRunning = false;
 
         heart = false;
-        animator.SetBool("isDead", false);
-        animator.SetBool("isJumping", false);
-        animator.ResetTrigger("Sliding");
-        animator.SetBool("Idle", true);
+        if (animator != null)
+        {
+            animator.SetBool("isDead", false);
+            animator.SetBool("isJumping", false);
+            animator.ResetTrigger("Sliding");
+            animator.SetBool("Idle", true);
+        }
 
-        gameObject.GetComponent<PlayerMovement>().ResetLine();
-        gameObject.GetComponent<PlayerMovement>().setDead(false);
+        PlayerControllerService.ResetLine();
+        PlayerControllerService.IsDead = false;
 
-        transform.position = obstaclesGenerator.GetComponent<ObstaclesGenerating>().getLastPosition();
-        
+        transform.position = ObstaclesGeneratingService.getLastPosition();
 
         usingHeartUI.gameObject.SetActive(true);
         yield return new WaitForSeconds(3f);
         usingHeartUI.gameObject.SetActive(false);
 
-        GetComponent<PlayerMovement>().SetGame(true);
-        animator.SetBool("Idle", false);
-
-
+        GameManagerService.IsGameRunning = true;
+        if (animator != null) animator.SetBool("Idle", false);
     }
 
     public bool HasExtraLife() => heart;
+    public void SetHeart(bool value) => heart = value;
+    public Image HeartUI() => heartUI;
+    public void SetHeartUI(Image img) => heartUI = img;
+    public GameObject UsingHeartUI() => usingHeartUI;
+    public void SetHeartUIObject(GameObject obj) => usingHeartUI = obj;
+
 
 }
-//obstaclesGenerator.GetComponent<ObstaclesGenerating>().Pause();
-        //housesGenerator.GetComponent<HouseGenerating>().Pause();
-        //railsGenerator.GetComponent<RailsGenerating>().Pause();
-//rb.isKinematic = false;
-//rb.velocity = Vector3.zero;
-
-//obstaclesGenerator.GetComponent<ObstaclesGenerating>().Resume();
-//housesGenerator.GetComponent<HouseGenerating>().Resume();
-//railsGenerator.GetComponent<RailsGenerating>().Resume();

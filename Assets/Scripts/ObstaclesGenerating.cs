@@ -4,8 +4,10 @@ using System.Net;
 using UnityEngine;
 using static UnityEditor.PlayerSettings;
 
-public class ObstaclesGenerating : MonoBehaviour
+public class ObstaclesGenerating : MonoBehaviour, IObstaclesGenerating
 {
+    public static ObstaclesGenerating Instance { get; private set; }
+
     [Header("Trains")]
     public GameObject[] trainsPrefabs;
 
@@ -24,11 +26,17 @@ public class ObstaclesGenerating : MonoBehaviour
     private int freeLines = 3;
     private Vector3 lastPosition;
     private List<float> respawnPoints = new List<float>();
-    private bool isPaused = false;
     private float fixedY;
     private bool spawnedHeart = false;
     private Vector3 spawnedHeartPos = Vector3.zero;
 
+    private float spawnDistance = 150f;
+    private float destroyDistance = 100f;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         player = GameObject.Find("Player");
@@ -38,16 +46,14 @@ public class ObstaclesGenerating : MonoBehaviour
             endPoints.Add(player.transform.position.z + 30f);
         }
         startPoint = player.transform.position.z + 30f;
+        maxEndPoint = startPoint;
         lastPosition = player.transform.position;
-        respawnPoints.Add(startPoint);
+        respawnPoints.Add(startPoint - 10f);
         fixedY = player.transform.position.y;
 
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (isPaused) return;
 
         if (player.transform.position.z > respawnPoints[0])
         {
@@ -61,7 +67,7 @@ public class ObstaclesGenerating : MonoBehaviour
             spawnedHeart = false;
         }
 
-        if (player.transform.position.z > maxEndPoint - 150)
+        if (player.transform.position.z > maxEndPoint - spawnDistance)
         {
             freeLines = 3;
             blockedLines = new List<bool> { false, false, false };
@@ -127,7 +133,6 @@ public class ObstaclesGenerating : MonoBehaviour
                 }
             }
         }
-        //placedTrains = 0;
     }
 
     private void ObstaclesSpawn()
@@ -144,13 +149,13 @@ public class ObstaclesGenerating : MonoBehaviour
             power = true;
         }
 
-        while (placedObstacles < obstacles && freeLines > 0) //>=0
+        while (placedObstacles < obstacles && freeLines > 0)
         {
             int line = Random.Range(-1, 2);
             if (!blockedLines[line + 1])
             {
                 if (maxEndPoint < startPoint) maxEndPoint = startPoint + 10f;
-                float ObstacleStartPoint = Random.Range(startPoint, maxEndPoint); //maxend - 5f
+                float ObstacleStartPoint = Random.Range(startPoint, maxEndPoint);
 
                 Vector3 pos = new Vector3(coordinateX[line + 1],
                                           -0.3f,
@@ -171,7 +176,7 @@ public class ObstaclesGenerating : MonoBehaviour
                 freeLines--;
                 blockedLines[line + 1] = true;
 
-                endPoints[line + 1] = ObstacleStartPoint + 5f; //startPoint
+                endPoints[line + 1] = ObstacleStartPoint + 5f;
                 if (maxEndPoint < endPoints[line + 1])
                 {
                     maxEndPoint = endPoints[line + 1];
@@ -219,7 +224,7 @@ public class ObstaclesGenerating : MonoBehaviour
 
                 if (spawnCoins1 >= 0.5f)
                 {
-                    if (obstacle.gameObject.transform.childCount == 0) //transform.childCount == 0
+                    if (obstacle.gameObject.transform.childCount == 0)
                     {
                         GameObject coinPrefab = Resources.Load<GameObject>("Prefabs/coin");
                         for (float i = begin + 2.5f; i < end; i += 2.5f)
@@ -278,7 +283,7 @@ public class ObstaclesGenerating : MonoBehaviour
                         GameObject coinPrefab = Resources.Load<GameObject>("Prefabs/coin");
                         for (float j = startPoint + 2.5f; j < maxEndPoint; j += 2.5f)
                         {
-                            Vector3 coinPos = new Vector3(coordinateX[i], 0.2f, i);
+                            Vector3 coinPos = new Vector3(coordinateX[i], 0.2f, j);
                             Instantiate(coinPrefab, coinPos, Quaternion.identity);
                         }
                     }
@@ -287,13 +292,9 @@ public class ObstaclesGenerating : MonoBehaviour
         }
     }
         
-    
-        //placedObstacles = 0;
-        //}
-
     private void DestroyObstacles()
     {
-        if (AllObstacles.Count > 0 && AllObstacles[0].transform.position.z < player.transform.position.z - 100)
+        if (AllObstacles.Count > 0 && AllObstacles[0].transform.position.z < player.transform.position.z - destroyDistance)
         {
             Destroy(AllObstacles[0]);
             AllObstacles.RemoveAt(0);
@@ -304,7 +305,5 @@ public class ObstaclesGenerating : MonoBehaviour
     {
         return lastPosition;
     }
-    public void Pause() => isPaused = true;
-    public void Resume() => isPaused = false;
 
 }

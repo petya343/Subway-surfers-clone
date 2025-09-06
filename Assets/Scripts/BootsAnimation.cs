@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BootsAnimation : MonoBehaviour
 {
-    public Transform footBone; // assign the foot bone in inspector
+    public Transform footBone;
     void LateUpdate()
     {
         if (footBone != null)

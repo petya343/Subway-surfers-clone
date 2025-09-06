@@ -18,8 +18,9 @@ public class HouseGenerating : MonoBehaviour
     private float startRightPoint;
     private Vector3 pos;
     private float houseLength = 13f;
-    private bool isPaused = false;
-    // Start is called before the first frame update
+
+    private float spawnDistance = 150f;
+    private float destroyDistance = 100f;
     void Start()
     {
         player = GameObject.Find("Player");
@@ -31,11 +32,9 @@ public class HouseGenerating : MonoBehaviour
         startRightPoint = firstRightHouse.transform.position.z + houseLength;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (isPaused) return;
-        if (player.transform.position.z > startLeftPoint - 150)
+        if (player.transform.position.z > startLeftPoint - spawnDistance)
         {
             SpawnLeftHouse();
             SpawnRightHouse();
@@ -70,13 +69,10 @@ public class HouseGenerating : MonoBehaviour
 
     private void DestroyHouse(List<GameObject> houses)
     {
-        if (houses.Count > 0 && houses[0].transform.position.z < player.transform.position.z - 100)
+        if (houses.Count > 0 && houses[0].transform.position.z < player.transform.position.z - destroyDistance)
         {
             Destroy(houses[0]);
             houses.RemoveAt(0);
         }
     }
-    public void Pause() => isPaused = true;
-    public void Resume() => isPaused = false;
-
 }

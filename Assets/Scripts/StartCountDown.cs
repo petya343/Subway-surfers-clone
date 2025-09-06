@@ -5,30 +5,25 @@ using UnityEngine;
 
 public class StartCountDown : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField]
     private TMP_Text countDownText;
     private float currentTime = 3f;
     private GameObject player;
-    private PlayerMovement playerMovement;
     private Animator animator;
-    [SerializeField]
-    private AudioSource startCounter;
-
+    
     void Start()
     {
         player = GameObject.Find("Player");
-        playerMovement = player.GetComponent<PlayerMovement>();
         animator = player.GetComponent<Animator>();
         animator.SetBool("Idle", true);
         StartCoroutine(CountDown());
     }
 
-   private IEnumerator CountDown()
+    private IEnumerator CountDown()
    {
         float passed = 0f;
         float duration = 0.5f;
-        startCounter.Play();
+        AudioManager.Instance.PlayStartCounter();
         while (currentTime > 0f)
         {
             countDownText.text = currentTime.ToString();
@@ -63,7 +58,7 @@ public class StartCountDown : MonoBehaviour
 
         countDownText.gameObject.SetActive(false);
         animator.SetBool("Idle", false);
-        playerMovement.SetGame(true);
+        GameManager.Instance.StartGame();
     }
 
 }
