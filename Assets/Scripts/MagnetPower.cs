@@ -14,8 +14,6 @@ public class MagnetPower : MonoBehaviour, IMagnetPower
 
     private bool isMagnetActive = false;
     private Coroutine magnetCoroutine = null;
-    [SerializeField]
-    private ParticleSystem collectingCoins;
     public GameObject magnetUI;
     private int posUI = 0;
     private Vector3 magnetUIpos;

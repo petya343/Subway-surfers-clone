@@ -3,7 +3,131 @@
   "WorkspaceRootPath": "C:\\Users\\ipety\\Project Petya Ivanova\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADD8DC7D-7237-4AB9-8E2C-F21812BACA68}|PlayMode.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\tests\\playmode\\playercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\textanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\textanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\screenshaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\screenshaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\scoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\scoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\pulledcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\pulledcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\railsgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\railsgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\housegenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\housegenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\obstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\obstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\magnetpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\magnetpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\gamescenemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\gamescenemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\extralife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\extralife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\controllsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\controllsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\bootsanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\bootsanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\boots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\boots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\barui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\barui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iscoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iscoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iobstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iobstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\imagnetsurvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\imagnetsurvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iboots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iboots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\ibarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\ibarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iaudiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iaudiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD8DC7D-7237-4AB9-8E2C-F21812BACA68}|PlayMode.csproj|c:\\users\\ipety\\project petya ivanova\\assets\\tests\\playmode\\playercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADD8DC7D-7237-4AB9-8E2C-F21812BACA68}|PlayMode.csproj|solutionrelative:assets\\tests\\playmode\\playercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,130 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ADD8DC7D-7237-4AB9-8E2C-F21812BACA68}|PlayMode.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\tests\\playmode\\extralifetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADD8DC7D-7237-4AB9-8E2C-F21812BACA68}|PlayMode.csproj|solutionrelative:assets\\tests\\playmode\\extralifetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|c:\\users\\ipety\\project petya ivanova\\assets\\scripts\\extralife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\extralife.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\igamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\obstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\obstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\boots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\boots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iboots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iboots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iobstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iobstaclesgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\magnetpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\magnetpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\barui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\barui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\ibarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\ibarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iaudiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iaudiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\imagnetsurvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\imagnetsurvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\interfaces\\iscoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\interfaces\\iscoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\scoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\scoresystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\housegenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\housegenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\controllsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\controllsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\screenshaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\screenshaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\startcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\pulledcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\pulledcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\railsgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\railsgenerating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\bootsanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\bootsanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\textanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\textanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\gamescenemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\gamescenemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|C:\\Users\\ipety\\Project Petya Ivanova\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5316065-F825-F3F0-D3D7-D09DB4C77C45}|Scripts.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\ExtraHeartEditModeTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,50 +174,414 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MagnetPowerEditModeTests.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
-              "RelativeDocumentMoniker": "Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
-              "RelativeToolTip": "Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PulledCoin.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PulledCoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PulledCoin.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PulledCoin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PulledCoin.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T13:15:12.988Z",
+              "WhenOpened": "2025-08-21T13:12:37.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreSystem.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScoreSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScoreSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:52:12.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScreenShaker.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScreenShaker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenShaker.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScreenShaker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScreenShaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T18:19:33.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\SettingsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsMenu.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\SettingsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SettingsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T12:34:07.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerControllerEditModeTests.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
-              "RelativeDocumentMoniker": "Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
-              "RelativeToolTip": "Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "StartCountDown.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\StartCountDown.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartCountDown.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\StartCountDown.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartCountDown.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:27:10.097Z",
+              "WhenOpened": "2025-08-29T14:54:57.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MagnetPowerTests.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
-              "RelativeDocumentMoniker": "Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
-              "RelativeToolTip": "Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwE8AAAAaAAAAAAAAAA==",
+              "Title": "TextAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\TextAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TextAnimation.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\TextAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TextAnimation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T13:40:32.291Z",
+              "WhenOpened": "2025-08-30T11:04:00.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:37:19.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RailsGenerating.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\RailsGenerating.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RailsGenerating.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\RailsGenerating.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RailsGenerating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T11:13:48.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAA1wGoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:52:13.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerCollision.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCollision.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:08:05.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HouseGenerating.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\HouseGenerating.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HouseGenerating.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\HouseGenerating.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HouseGenerating.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T21:01:04.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObstaclesGenerating.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ObstaclesGenerating.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstaclesGenerating.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ObstaclesGenerating.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstaclesGenerating.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwCgBAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T20:18:11.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T10:17:19.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MagnetPower.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MagnetPower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MagnetPower.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MagnetPower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MagnetPower.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAIwDkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:38:36.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameSceneMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameSceneMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSceneMenu.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameSceneMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSceneMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T10:51:44.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T16:15:32.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExtraLife.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ExtraLife.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExtraLife.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ExtraLife.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExtraLife.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:47:57.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ControllsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ControllsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ControllsMenu.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ControllsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ControllsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T19:53:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T11:50:48.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BootsAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BootsAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BootsAnimation.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BootsAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BootsAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T16:06:41.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Boots.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Boots.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Boots.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Boots.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Boots.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:02:21.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BarUI.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BarUI.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BarUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BarUI.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T09:58:35.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:14:30.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IScoreSystem.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:46:12.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IPlayerController.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IPlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IPlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T14:26:45.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IObstaclesGenerating.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:54:07.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMagnetSurvice.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T12:18:49.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IGameManager.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IGameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:39:30.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IBoots.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBoots.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IBoots.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBoots.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IBoots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T08:36:33.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IBarUI.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IBarUI.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBarUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IBarUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T12:06:36.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IAudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IAudioManager.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IAudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IAudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:45:24.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "PlayerControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\PlayerControllerTests.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\PlayMode\\PlayerControllerTests.cs",
@@ -230,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 35,
               "Title": "BootsTests.cs",
               "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\BootsTests.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\PlayMode\\BootsTests.cs",
@@ -238,12 +602,47 @@
               "RelativeToolTip": "Assets\\Tests\\PlayMode\\BootsTests.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAqwFgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T09:58:11.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T09:58:11.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 32,
+              "Title": "MagnetPowerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
+              "RelativeToolTip": "Assets\\Tests\\PlayMode\\MagnetPowerTests.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwE8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:40:32.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PlayerControllerEditModeTests.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
+              "RelativeToolTip": "Assets\\Tests\\EditMode\\PlayerControllerEditModeTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T08:27:10.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MagnetPowerEditModeTests.cs",
+              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
+              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
+              "RelativeToolTip": "Assets\\Tests\\EditMode\\MagnetPowerEditModeTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:15:12.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "ExtraLifeTests.cs",
               "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Tests\\PlayMode\\ExtraLifeTests.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\PlayMode\\ExtraLifeTests.cs",
@@ -251,83 +650,7 @@
               "RelativeToolTip": "Assets\\Tests\\PlayMode\\ExtraLifeTests.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAADwv1MAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:16:22.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:52:13.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T11:50:48.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerCollision.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerCollision.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCollision.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerCollision.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerCollision.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T15:08:05.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ExtraLife.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ExtraLife.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ExtraLife.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ExtraLife.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ExtraLife.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T20:47:57.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T16:15:32.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IGameManager.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IGameManager.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IGameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IGameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:39:30.436Z"
+              "WhenOpened": "2025-09-05T14:16:22.424Z"
             },
             {
               "$type": "Document",
@@ -343,210 +666,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ObstaclesGenerating.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ObstaclesGenerating.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstaclesGenerating.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ObstaclesGenerating.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObstaclesGenerating.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:18:11.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IPlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IPlayerController.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IPlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IPlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:26:45.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IBoots.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBoots.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IBoots.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBoots.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IBoots.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:36:33.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IBarUI.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBarUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IBarUI.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IBarUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IBarUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T12:06:36.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Boots.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Boots.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Boots.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Boots.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Boots.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T15:02:21.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IMagnetSurvice.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IMagnetSurvice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T12:18:49.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IObstaclesGenerating.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IObstaclesGenerating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T13:54:07.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IScoreSystem.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IScoreSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:46:12.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IAudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IAudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IAudioManager.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\Interfaces\\IAudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IAudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:45:24.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ControllsMenu.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ControllsMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ControllsMenu.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ControllsMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ControllsMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:53:31.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MagnetPower.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MagnetPower.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MagnetPower.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MagnetPower.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MagnetPower.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T19:38:36.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ScreenShaker.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScreenShaker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenShaker.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScreenShaker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScreenShaker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:19:33.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "StartCountDown.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\StartCountDown.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StartCountDown.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\StartCountDown.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StartCountDown.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwBUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:54:57.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T15:37:19.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ScoreSystem.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScoreSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\ScoreSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScoreSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T15:52:12.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PulledCoin.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PulledCoin.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PulledCoin.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PulledCoin.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PulledCoin.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T13:12:37.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "RailsGenerating.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\RailsGenerating.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RailsGenerating.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\RailsGenerating.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RailsGenerating.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T11:13:48.155Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 38,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\PlayerMovement.cs",
@@ -555,7 +674,8 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAALIAAAAAAAAAAAAAAA8BAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T11:59:49.035Z"
+              "WhenOpened": "2025-08-15T11:59:49.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -567,91 +687,8 @@
               "RelativeToolTip": "Assets\\Scripts\\CoinsUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:14:12.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "BootsAnimation.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BootsAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BootsAnimation.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BootsAnimation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BootsAnimation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T16:06:41.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BarUI.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BarUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BarUI.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\BarUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BarUI.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:58:35.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SettingsMenu.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\SettingsMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsMenu.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\SettingsMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SettingsMenu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T12:34:07.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T15:14:30.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HouseGenerating.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\HouseGenerating.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HouseGenerating.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\HouseGenerating.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HouseGenerating.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwCQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T21:01:04.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "TextAnimation.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\TextAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TextAnimation.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\TextAnimation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TextAnimation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T11:04:00.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "GameSceneMenu.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameSceneMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSceneMenu.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\GameSceneMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameSceneMenu.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T10:51:44.824Z"
+              "WhenOpened": "2025-08-26T20:14:12.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -663,19 +700,8 @@
               "RelativeToolTip": "Assets\\Scripts\\ScoreUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:05:40.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\ipety\\Project Petya Ivanova\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T10:17:19.936Z"
+              "WhenOpened": "2025-08-26T20:05:40.814Z",
+              "EditorCaption": ""
             }
           ]
         }

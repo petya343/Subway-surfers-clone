@@ -37,11 +37,11 @@ public class ExtraLifePlayModeTests
         extraLife.PlayerControllerService = mockPlayer;
 
         mockObstacles = Substitute.For<IObstaclesGenerating>();
-        mockObstacles.getLastPosition().Returns(Vector3.zero); // define default behavior
+        mockObstacles.getLastPosition().Returns(Vector3.zero);
         extraLife.ObstaclesGeneratingService = mockObstacles;
 
         mockGameManager = Substitute.For<IGameManager>();
-        mockGameManager.IsGameRunning = true; // initial state
+        mockGameManager.IsGameRunning = true;
         extraLife.GameManagerService = mockGameManager;
 
         yield return null;
@@ -60,11 +60,9 @@ public class ExtraLifePlayModeTests
     [UnityTest]
     public IEnumerator ActivateHeart_SetsHeartTrueAndUIFull()
     {
-        // Act
         extraLife.ActivateHeart();
         yield return null;
 
-        // Assert
         Assert.IsTrue(extraLife.HasExtraLife());
         Assert.AreEqual(extraLife.HeartUI().sprite, extraLife.HeartUI().sprite);
     }

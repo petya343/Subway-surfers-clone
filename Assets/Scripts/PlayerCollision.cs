@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+    [SerializeField]
+    private ParticleSystem collectingCoins;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Coin"))
         {
             AudioManager.Instance.PlayCoinCollect();
+            collectingCoins.Play();
             GameManager.Instance.AddCoin(1);
             Destroy(other.gameObject);
         }

@@ -14753,7 +14753,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a7a13488c438ca94ea0af2905ae4f9ba, type: 2}
+  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15089,7 +15089,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c9c7fd371d9f964bb41a8ac2672630d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectingCoins: {fileID: 8664449700410539376}
   magnetUI: {fileID: 0}
 --- !u!114 &6592489466720423402
 MonoBehaviour:
@@ -15119,6 +15118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfc625828622e4cb560e7f307efcaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectingCoins: {fileID: 8664449700410539376}
 --- !u!114 &876465469263717167
 MonoBehaviour:
   m_ObjectHideFlags: 0
